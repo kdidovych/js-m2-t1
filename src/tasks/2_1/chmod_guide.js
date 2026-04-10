@@ -1,7 +1,7 @@
 'use strict';
 
 let n = prompt('Enter number [0-7]');
-if (!n || n.trim().length !== 1 || 0 < n > 7) {
+if (!n || n.trim().length !== 1 || 0 < n || n > 7) {
     console.log('You entered invalid value. Please reload the page and try again');
 } else {
     n = parseInt(n);
